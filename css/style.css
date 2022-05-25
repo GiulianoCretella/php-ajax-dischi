@@ -1,0 +1,31 @@
+body{
+    background-color: #1E2D3B;
+    height: 100vh;
+    overflow-y:auto ;
+}
+header{
+    background-color: #2E3A46;
+    height: 80px;
+}
+.logo_container{
+       width: 80px;
+       padding: 10px;
+}
+
+.my_card{
+    width: 200px;
+    padding: 15px;
+    background-color:#2E3A46;
+}
+h3{
+        color:white;
+        margin-top: 10px;
+        font-size: 1em;
+}
+.specifics{
+        color:#5C646D;
+}
+.colonne{
+    flex:0 0 calc(100% / 5);
+}
+
