@@ -18,6 +18,10 @@
             </div>
         </header>
         <main class="container">
+        <select class="form-control " name="genere" id="genere" @change="cambiaGenere" v-model="genereSelezionato">
+                <option value="">Tutti i Generi</option>
+                <option :value="genere" v-for="(genere,index) in generi">{{genere}}</option>
+            </select>
             <div class="row">
                 <div class="col colonne py-3 gy-0 d-flex" v-for="(album,index) in albums" :key="index">
                     <div class="my_card rounded text-center align-items-stretch">

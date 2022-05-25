@@ -28,4 +28,13 @@ h3{
 .colonne{
     flex:0 0 calc(100% / 5);
 }
+.form-control{
+    text-align: center;
+    background-color: #1D2D3B!important;
+    color:white;
+}
+select:focus{
+        color:white;
+        background-color:#2E3A46;
+}
 
